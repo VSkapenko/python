@@ -15,5 +15,3 @@ for coordinates in wonders:
     # Для каждой страны из списка проверим, есть ли она в словаре Capitals
     if coordinates in wonders:
         print('Некоторые из удивительных мест, которые были обнаружены с помощью Google Earth - ' + coordinates + ': ' + wonders[coordinates])
-    else:
-        print()
